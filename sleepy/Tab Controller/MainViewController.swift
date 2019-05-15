@@ -28,3 +28,6 @@ class MainViewController: UITabBarController {
   
   
 }
+
+
+//Color palette to use -> https://colorhunt.co/palette/42191

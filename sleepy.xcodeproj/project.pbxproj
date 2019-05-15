@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8707CB37228BF37700EF7A55 /* WaterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707CB36228BF37700EF7A55 /* WaterCollectionViewCell.swift */; };
+		8707CB39228BF44400EF7A55 /* MeditationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8707CB38228BF44400EF7A55 /* MeditationCollectionViewCell.swift */; };
 		879129BC227C846F0043C2A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879129BB227C846F0043C2A3 /* AppDelegate.swift */; };
-		879129BE227C846F0043C2A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879129BD227C846F0043C2A3 /* ViewController.swift */; };
 		879129C3227C84720043C2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879129C2227C84720043C2A3 /* Assets.xcassets */; };
 		879129C6227C84720043C2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879129C4227C84720043C2A3 /* LaunchScreen.storyboard */; };
 		879129D1227C85040043C2A3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879129D0227C85040043C2A3 /* MainViewController.swift */; };
@@ -17,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8707CB36228BF37700EF7A55 /* WaterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCollectionViewCell.swift; sourceTree = "<group>"; };
+		8707CB38228BF44400EF7A55 /* MeditationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCollectionViewCell.swift; sourceTree = "<group>"; };
 		879129B8227C846F0043C2A3 /* sleepy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sleepy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879129BB227C846F0043C2A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879129BD227C846F0043C2A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		879129C2227C84720043C2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879129C5227C84720043C2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		879129C7227C84720043C2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8707CB33228BE7C200EF7A55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8707CB36228BF37700EF7A55 /* WaterCollectionViewCell.swift */,
+				8707CB38228BF44400EF7A55 /* MeditationCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		879129AF227C846F0043C2A3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +69,10 @@
 		879129BA227C846F0043C2A3 /* sleepy */ = {
 			isa = PBXGroup;
 			children = (
+				8707CB33228BE7C200EF7A55 /* Views */,
 				879129CF227C84ED0043C2A3 /* Tab Controller */,
 				879129CE227C84E20043C2A3 /* View Controllers */,
 				879129CD227C84920043C2A3 /* Support Files */,
-				879129BD227C846F0043C2A3 /* ViewController.swift */,
 				879129C2227C84720043C2A3 /* Assets.xcassets */,
 				879129C4227C84720043C2A3 /* LaunchScreen.storyboard */,
 				879129C7227C84720043C2A3 /* Info.plist */,
@@ -165,8 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				879129D1227C85040043C2A3 /* MainViewController.swift in Sources */,
-				879129BE227C846F0043C2A3 /* ViewController.swift in Sources */,
 				879129D5227C85470043C2A3 /* MeditationViewController.swift in Sources */,
+				8707CB39228BF44400EF7A55 /* MeditationCollectionViewCell.swift in Sources */,
+				8707CB37228BF37700EF7A55 /* WaterCollectionViewCell.swift in Sources */,
 				879129D3227C85230043C2A3 /* WaterViewController.swift in Sources */,
 				879129BC227C846F0043C2A3 /* AppDelegate.swift in Sources */,
 			);

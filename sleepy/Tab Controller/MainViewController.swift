@@ -10,8 +10,8 @@ import UIKit
 
 class MainViewController: UITabBarController {
   
-  let waterViewController = WaterViewController()
-  let meditationViewController = MeditationViewController()
+  let waterViewController = WaterViewController.init(collectionViewLayout: UICollectionViewFlowLayout())
+  let meditationViewController = MeditationViewController.init(collectionViewLayout: UICollectionViewFlowLayout())
 
 
   override func viewDidLoad() {
